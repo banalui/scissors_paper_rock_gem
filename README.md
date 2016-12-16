@@ -2,7 +2,14 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/scissors_paper_rock`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+This classic game involves 2 players which draw a choice between "rock" or "paper" or "scissors" at the exact same time.
+In the classic mode the logical winner of course between a rock and a scissors is scissors. But in this gem, this logic has been changed to confuse both parties. You may notice a change in the name too. Basically the name and logic of the game have now been reversed where:
+
+Rock will win over Paper
+Paper will win over Scissors
+Scissors will win over Rock
+
+This gem game has 2 modes where a player can play against a computer or against another human (which does not make sense)
 
 ## Installation
 
@@ -22,7 +29,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Upon installation, you can add following line in your project which loads and brings in required files:
+
+```ruby
+require 'scissors_paper_rock'
+```
+
+Now you are ready to use in your code. You can then call and play the game:
+
+```ruby
+ScissorsPaperRock.playgame
+```
+
+This will open the prompt and you know a fairly good amount of English language, you can play!
 
 ## Development
 
