@@ -3,5 +3,8 @@ require "scissors_paper_rock/game"
 require "scissors_paper_rock/player"
 
 module ScissorsPaperRock
-  # Your code goes here...
+  def self.playgame
+  	game = Game.new
+  	game.play
+  end
 end
