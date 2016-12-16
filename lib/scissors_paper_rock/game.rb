@@ -2,7 +2,7 @@ require_relative 'player'
 
 
 module ScissorsPaperRock
-	class RockPaperScissors
+	class Game
 		attr_accessor :player1 , :player2 , :number_of_rounds_remaining
 
 		def initialize
